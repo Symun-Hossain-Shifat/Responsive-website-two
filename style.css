@@ -8,6 +8,9 @@
 .font-class {
   font-family: "Open Sans", sans-serif;
  }
+ .margin{
+   margin: 40px 70px;  
+ }
 #nav-container{
     display: flex;
     justify-content: space-between;
@@ -85,6 +88,35 @@ align-content: center;
 .hero-text-container button:hover{
   color: black;
 }
+#sponsor{
+   display: flex;
+  gap: 50px;
+   padding: 20px 10px;
+   justify-content: center;
+   align-items: center;
+    border-top: 2px solid #3A3A3A3A;
+      border-bottom: 2px solid #3A3A3A3A;
+}
+
+.first-img-container{
+    display: flex;
+   gap: 50px;
+   align-items: center;
+
+  
+}
+.second-img-container{
+    display: grid;
+ gap: 55px;
+   grid-template-columns: repeat(3,0.75fr);
+  align-items: center;
+
+  
+}
+#sposor img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 
@@ -128,5 +160,27 @@ align-content: center;
     .hero-text-container h1{
         font-size: 2rem;
     }
-    
+    #sponsor{
+       display: flex;
+       flex-direction: column;
+       padding: 10px 0px;
+       gap: 15px;
+       border: none;
+       margin-top: 50px;
+    }
+     .first-img-container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+       margin: 0px auto;
+      justify-content: space-between;
+    }
+    .second-img-container{
+       display: grid;
+       grid-template-columns: repeat(3,0.75fr);
+       justify-content: space-around;
+       margin: 0px auto;
+    }
+    #sponsor img{
+        width: 100%;
+    }
 }
