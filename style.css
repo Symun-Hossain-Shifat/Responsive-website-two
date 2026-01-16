@@ -117,7 +117,97 @@ align-content: center;
     max-width: 100%;
     max-height: 100%;
 }
+#card{
+    text-align: center;
+    margin-top: 100px;
+}
+#card h2{
+    margin-bottom: 40px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.card-container img{
+    max-width: 100%;
+   
 
+}
+.card-container div{
+    padding:15px ;
+    border: none;
+   text-align: left;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.376);
+}
+.card-container div h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    margin-top: 15px;
+}
+.card-container div h4{
+    font-size: 1.4rem;
+    font-weight:bold;
+    color:black;
+    margin-top: 15px;
+}
+.card-container div p{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#3A3A3A;
+    margin-top: 15px;
+}
+#feature{
+    display: flex;
+    gap: 0px;
+    margin-top: 100px;
+  
+}
+.feature{
+    flex-basis: 50%;
+    
+}
+.img{
+    margin: 20px;
+}
+.feature-text-container h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 50px;
+    
+}
+.feature-text-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+.feature-text-container button{
+background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 10px;
+   
+}
+.feature img{
+    max-width: 100%;
+}
+footer{
+    background-color: #0A0826;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+   
+   
 
 
 
@@ -183,4 +273,28 @@ align-content: center;
     #sponsor img{
         width: 100%;
     }
-}
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1,0.80fr);
+        justify-content: center;
+    }
+    #feature{
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        margin: auto;
+       
+    }
+    .feature{
+       margin: 0px auto;
+      
+    }
+    .feature-text-container{
+        margin-bottom:30px ;
+    }
+    
+    }
